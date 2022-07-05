@@ -9,6 +9,7 @@ import {
 	IonLabel,
 } from "@ionic/react";
 import React, { useState } from "react";
+import "./Global.css"
 
 const EditMovie = ({method}: any) => {
 
@@ -17,23 +18,27 @@ const EditMovie = ({method}: any) => {
 	const [message, setMessage] = useState("");
 
 	return (
-		<IonCard className="edit-movie-card">
+		<IonCard className="Title__Card__Color">
 			<IonCardHeader>
-				<IonCardTitle>Edit Movie</IonCardTitle>
+				<IonCardTitle className="Card__Letter__Color">Edit Movie</IonCardTitle>
 			</IonCardHeader>
 			<IonCardContent>
-				<IonItem>
+				<IonItem className="List__Card">
 					<IonLabel position="stacked">Movie ID</IonLabel>
+					<br />
 					<IonInput
+						className="Input__Color"
 						type="number"
 						placeholder="ID"
 						value={movieID}
 						onIonChange={(e) => setMovieID(e.detail.value!)}
 					/>
 				</IonItem>
-				<IonItem>
-					<IonLabel position="stacked">New Movie Name</IonLabel>
+				<IonItem className="List__Card">
+					<IonLabel className="Label__Styles" position="stacked">New Movie Name</IonLabel>
+					<br />
 					<IonInput
+					  className="Input__Color"
 						type="text"
 						placeholder="Name"
 						value={movieName}
@@ -41,7 +46,7 @@ const EditMovie = ({method}: any) => {
 					/>
 				</IonItem>
 
-				<IonItem>
+				<IonItem className="List__Card">
 					<IonButton
 						color="warning"
 						onClick={() => {

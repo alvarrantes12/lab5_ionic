@@ -19,7 +19,7 @@ const MovieList = ({ data, method }: any) => {
 		);
 	} else {
 		return (
-			<IonCard className="List__Card">
+			<IonCard className="Title__Card__Color">
 				<IonCardContent>
 					{data?.map((movie: any) => {
 						return (

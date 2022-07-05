@@ -1,3 +1,32 @@
-.ion-color-Title{
-  --ion-color-base: var
+.Title__Card__Color{
+  background-color:aliceblue;
+  border-radius: 10px;;
+}
+
+.Card__Letter__Color{
+  color:rgb(0, 0, 0);
+}
+
+.Input__Color{
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: black;
+}
+
+.List__Card {
+  background-color: black;
+  color: white;
+  border-collapse:separate;
+  /* Not change border radius in first and last element */
+  border-radius: 10px 0px 0px 10px;
+}
+
+.Input__Item__Color{
+  background-color: black;
+  color: white;
+  border-collapse:separate;
+}
+
+.Label__Styles{
+  margin-bottom: 0.5rem;
 }
