@@ -25,7 +25,7 @@ const DeleteMovie = ({method, url}: any) => {
 			</IonCardHeader>
 			<IonCardContent>
 				<IonItem className="List__Card">
-					<IonLabel>Movie ID: </IonLabel>
+					<IonLabel className="Label__Styles" >Movie ID:</IonLabel>
 					<br />
 					<IonInput
 						className="Input__Color"

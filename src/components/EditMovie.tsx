@@ -24,8 +24,7 @@ const EditMovie = ({method}: any) => {
 			</IonCardHeader>
 			<IonCardContent>
 				<IonItem className="List__Card">
-					<IonLabel position="stacked">Movie ID</IonLabel>
-					<br />
+					<IonLabel className="Label__Styles" position="stacked">Movie ID</IonLabel>
 					<IonInput
 						className="Input__Color"
 						type="number"
@@ -36,7 +35,6 @@ const EditMovie = ({method}: any) => {
 				</IonItem>
 				<IonItem className="List__Card">
 					<IonLabel className="Label__Styles" position="stacked">New Movie Name</IonLabel>
-					<br />
 					<IonInput
 					  className="Input__Color"
 						type="text"

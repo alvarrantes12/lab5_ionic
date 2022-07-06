@@ -30,8 +30,9 @@ const CreateMovie = ({ method }: any) => {
 			</IonCardHeader>
 			<IonCardContent>
 				<IonItem className="List__Card">
-					<IonLabel className="Label__Styles" position="stacked">Movie Name: </IonLabel>
-					<br />
+					<IonLabel className="Label__Styles" position="stacked">
+						Movie Name:{" "}
+					</IonLabel>
 					<IonInput
 						className="Input__Color"
 						type="text"
@@ -41,8 +42,7 @@ const CreateMovie = ({ method }: any) => {
 					/>
 				</IonItem>
 				<IonItem className="List__Card">
-					<IonLabel position="stacked">Release Date</IonLabel>
-					<br />
+					<IonLabel className="Label__Styles" position="stacked">Release Date</IonLabel>
 					<IonInput
 						className="Input__Color"
 						type="text"
@@ -52,8 +52,7 @@ const CreateMovie = ({ method }: any) => {
 					/>
 				</IonItem>
 				<IonItem className="List__Card">
-					<IonLabel position="stacked">Director ID</IonLabel>
-					<br />
+					<IonLabel className="Label__Styles" position="stacked">Director ID</IonLabel>
 					<IonInput
 						className="Input__Color"
 						type="text"

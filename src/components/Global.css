@@ -9,24 +9,34 @@
 
 .Input__Color{
   background-color: aliceblue;
-  border-radius: 10px;
-  color: black;
+  position: relative;
+  color: rgb(0, 0, 0);
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid lightblue;
 }
 
 .List__Card {
   background-color: black;
   color: white;
   border-collapse:separate;
-  /* Not change border radius in first and last element */
-  border-radius: 10px 0px 0px 10px;
-}
-
-.Input__Item__Color{
-  background-color: black;
-  color: white;
-  border-collapse:separate;
+  border-radius: 10px 10px 10px 10px;
+  padding: 3px;
 }
 
 .Label__Styles{
-  margin-bottom: 0.5rem;
+  width: 70px;
+  position: relative;
+  top: -5px;
+  font-size: 1.2em;
+}
+
+.Item__Containers{
+  background-color: black;
+  color: white;
+  border-collapse:separate;
+  border-radius: 10px 10px 10px 10px;
+  height: 100px;
 }
